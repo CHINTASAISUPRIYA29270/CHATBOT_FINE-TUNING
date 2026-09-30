@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Java Fine-Tuned Chatbot</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <div class="container">
+
+        <header>
+
+            <div class="logo">
+                FT
+            </div>
+
+            <div>
+                <h1>Java Fine-Tuned Chatbot</h1>
+                <p>Powered by LoRA Fine-Tuning</p>
+            </div>
+
+        </header>
+
+
+        <div class="status">
+
+            <span class="status-dot"></span>
+
+            Fine-Tuned Model Online
+
+        </div>
+
+
+        <main id="chat">
+
+            <div class="welcome">
+
+                <h2>Welcome 👋</h2>
+
+                <p>
+                    Ask me questions about Java.
+                </p>
+
+                <div class="suggestions">
+
+                    <button onclick="askSuggestion('What is Java?')">
+                        What is Java?
+                    </button>
+
+                    <button onclick="askSuggestion('What is inheritance in Java?')">
+                        What is inheritance?
+                    </button>
+
+                    <button onclick="askSuggestion('What is polymorphism?')">
+                        What is polymorphism?
+                    </button>
+
+                    <button onclick="askSuggestion('What is encapsulation?')">
+                        What is encapsulation?
+                    </button>
+
+                </div>
+
+            </div>
+
+        </main>
+
+
+        <div class="input-area">
+
+            <input
+                type="text"
+                id="question"
+                placeholder="Ask a Java question..."
+                autocomplete="off"
+            >
+
+            <button id="sendButton">
+                Send
+            </button>
+
+        </div>
+
+        <div class="footer">
+
+            Java Fine-Tuning Project • LoRA / PEFT
+
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>

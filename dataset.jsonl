@@ -1,0 +1,8 @@
+{"instruction":"What is Java?","response":"Java is a high-level, object-oriented programming language."}
+{"instruction":"What is a class in Java?","response":"A class is a blueprint used to create objects in Java."}
+{"instruction":"What is an object in Java?","response":"An object is an instance of a class in Java."}
+{"instruction":"What is inheritance in Java?","response":"Inheritance allows one class to acquire the properties and methods of another class."}
+{"instruction":"What is encapsulation in Java?","response":"Encapsulation is the process of wrapping data and methods together in a class and controlling access to the data."}
+{"instruction":"What is polymorphism in Java?","response":"Polymorphism allows the same method or interface to behave differently depending on the object."}
+{"instruction":"What is an interface in Java?","response":"An interface defines a contract of methods that implementing classes must provide."}
+{"instruction":"What is a constructor in Java?","response":"A constructor is a special method used to initialize an object when it is created."}
